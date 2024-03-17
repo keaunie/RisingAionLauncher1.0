@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>RisingAionLauncher1._0</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="cover.png" />
+    <None Remove="logo_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="cover.png" />
+    <Resource Include="logo_icon.png" />
+  </ItemGroup>
+
+</Project>

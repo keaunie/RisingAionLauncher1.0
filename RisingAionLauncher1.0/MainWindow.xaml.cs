@@ -121,7 +121,7 @@ namespace RisingAionLauncher1._0
         }
 
 
-        private void Window_ContentRendered(object sender, EventArgs e)
+        private void Window_ContentRendered(object sender, EventArgs e) 
         {
             CheckForUpdates();
         }
